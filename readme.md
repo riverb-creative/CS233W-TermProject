@@ -22,7 +22,7 @@ How To Install Dependencies:
 
 > [!IMPORTANT]
 > Instructions to run server with URLs to test routes:
-> 1. Create clone of HW1 repository from GitHub
+> 1. Create clone of TermProject repository from GitHub
 > 2. Initialize node.js with _npm init_
 > 3. Install dependencies in node_modules folder with _npm install_
 > 4. Install Express with _npm install express_
