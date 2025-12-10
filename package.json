@@ -1,0 +1,28 @@
+{
+  "name": "cs233w-termproject",
+  "version": "1.0.0",
+  "description": "CS233W term project 2025",
+  "homepage": "https://github.com/riverb-creative/CS233WProject#readme",
+  "bugs": {
+    "url": "https://github.com/riverb-creative/CS233WProject/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riverb-creative/CS233WProject.git"
+  },
+  "license": "ISC",
+  "author": "River",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.1",
+    "mongoose": "^9.0.0",
+    "sanitize-html": "^2.17.0"
+  }
+}
