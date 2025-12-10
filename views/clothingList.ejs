@@ -1,0 +1,62 @@
+<%- include('./partials/header') %>
+        <table> 
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Category</th>
+                    <th>Name</th>
+                    <th>Brand</th>
+                    <th>Size</th>
+                    <th>Material</th>
+                    <th>Quantity</th>
+                    <th>Edit Item</th>
+                    <th>Delete Item</th>
+                </tr>
+            </thead> 
+            <!-- forEach loop starts here -->
+            <% myClothing.forEach((clothing) => { %>
+            <tbody>
+            <tr>
+                <td>
+                    <!-- clothing ID goes here -->
+                    <%= clothing._id %>
+                </td>
+                <td>
+                    <!-- category goes here -->
+                    <%= clothing.category %>
+                </td>
+                <td>
+                    <!-- name goes here -->
+                    <%= clothing.name %>
+                </td>
+                <td>
+                    <!-- brand goes here -->
+                     <%= clothing.brand %>
+                </td>
+                <td>
+                    <!-- size goes here -->
+                     <%= clothing.size %>
+                </td>
+                <td>
+                    <!-- material goes here -->
+                     <%= clothing.material %>
+                </td>
+                <td>
+                    <!-- qty goes here -->
+                     <%= clothing.qty %>
+                </td>
+
+                <td>
+                    <a href="/editClothingItem/<%= clothing._id %>">Edit Clothing Item</a>
+                </td>
+
+                <td>
+                    <a href="/deleteClothingItem/<%= clothing._id %>">Delete Clothing Item</a>
+                </td>
+            </tr>
+        </tbody>
+            <!-- forEach loop ends here -->
+             <% }) %>
+        </table>
+    <br><br>
+<%- include('partials/footer') %>

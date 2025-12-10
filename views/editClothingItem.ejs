@@ -1,0 +1,47 @@
+<%- include('./partials/header') %> 
+    <form action="/editClothingItem/<%= clothing._id %>" method="post">
+        <label for="clothingCat">Choose a Category:</label>
+        <br><br>
+            <select name="clothingCat" id="clothingCat">
+                <option value="tops">Tops</option>
+                <option value="bottoms">Bottoms</option>
+                <option value="full outfit">Full Outfit</option>
+                <option value="underwear">Underwear</option>
+                <option value="footwear">Footwear</option>
+                <option value="accessories">Accessories</option>
+            </select>
+        <br><br>
+
+        <label for="clothingName">Type:</label>
+        <br><br>
+            <input type="text" 
+            id="clothingName" name="clothingName" placeholder="Enter the Name of the Item">
+        <br><br>
+
+        <label for="clothingBrand">Brand:</label>
+        <br><br>
+            <input type="text" 
+            id="clothingBrand" name="clothingBrand" placeholder="Enter Brand of Item">
+        <br><br>
+
+        <label for="clothingSize">Clothing Size:</label>
+        <br><br>
+            <input type="text" 
+            id="clothingSize" name="clothingSize" placeholder="Enter Size of Item">
+        <br><br>
+
+        <label for="clothingMaterial">Type of Material:</label>
+        <br><br>
+        <p><em>if needed use commas to seperate multiple materials</em></p>
+            <input type="text" 
+            id="clothingMaterial" name="clothingMaterial" placeholder="Enter Material of Item">
+        <br><br>
+        
+            <label for="clothingQty">Quantity Wanted:</label>
+        <br><br>
+            <input type="number" 
+            id="clothingQty" name="clothingQty" placeholder="Enter Quantity Wanted">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+<%- include('partials/footer') %>
