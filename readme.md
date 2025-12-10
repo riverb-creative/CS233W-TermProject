@@ -79,3 +79,16 @@ How To Install Dependencies:
    > - size: {type: String},
    > - material: {type: String},
    > - qty: {type: Number}
+
+#### Screenshots:
+homepage of clothing list application:\
+<img width="2522" height="1324" alt="view of homepage of the Clothes list application" src="https://github.com/user-attachments/assets/84a24b91-f228-4410-8bce-7723411570b1" />
+\
+view of all clothing items with option to edit or delete item:\
+<img width="2526" height="1318" alt="view of all clothing items" src="https://github.com/user-attachments/assets/5cc893c7-eac4-42e2-9366-4b4d80f5990f" />
+\
+view of add clothing item form:\
+<img width="2522" height="1312" alt="view of add clothing item form" src="https://github.com/user-attachments/assets/c7fe108e-c2a5-4581-b9e1-ef1299fbedaa" />
+\
+view of editing clothing item form:\
+<img width="2526" height="1328" alt="view of edit clothing item" src="https://github.com/user-attachments/assets/d7a5c1a8-23dd-438a-a921-4eff6a27ed74" />
