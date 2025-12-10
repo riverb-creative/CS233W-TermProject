@@ -1,0 +1,16 @@
+
+    <div>
+        <p><strong>Please fix the error(s) below!</strong></p>
+        <ul>
+            <!-- forEach loop starts here for errorArray -->
+            <% errors.forEach((error) => { %>
+            <li>
+                <!-- loop over errorArray to display messages -->
+                 <%= error.msg %>
+            </li>
+            <!-- forEach loop ends here -->
+            <% }) %>
+        </ul>
+        
+        <a href="<%= urlPath %>">Please try again</a>
+    </div>
